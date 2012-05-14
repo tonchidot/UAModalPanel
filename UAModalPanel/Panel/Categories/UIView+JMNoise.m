@@ -11,8 +11,8 @@
 
 #define JM_SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
 
-#pragma Mark -
-#pragma Mark - Noise Layer
+#pragma mark -
+#pragma mark - Noise Layer
 
 @interface NoiseLayer : CALayer
 + (UIImage *)noiseTileImage;
@@ -93,8 +93,8 @@ static UIImage * JMNoiseImage;
 
 @end
 
-#pragma Mark -
-#pragma Mark - UIView implementations
+#pragma mark -
+#pragma mark - UIView implementations
 
 @implementation UIView (JMNoise)
 
